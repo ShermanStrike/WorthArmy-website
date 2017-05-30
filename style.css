@@ -98,7 +98,7 @@ div.navbar a:hover:before, div.navbar a:hover:after {
 }
 
 .footer-outer-container {
-  background-color: rgba(0, 0, 0, 0.60);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   position: fixed;
   bottom: 0;
