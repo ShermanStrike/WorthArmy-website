@@ -104,7 +104,7 @@ div.navbar a:hover:before, div.navbar a:hover:after {
   margin-left: 73%;
 }
 
-/*.twitch iframe {
+.twitch iframe {
   border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 0px 0px;
