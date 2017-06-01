@@ -6,7 +6,7 @@ body {
   background-color: #1C1C1E;
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 2100px;
+  height: ;
 }
 
 html, body {
@@ -71,7 +71,7 @@ html, body {
   color: #21D1EF!important;
 }
 
-/* Border X get width  */
+/* Navbar animation  */
 div.navbar a:before, div.navbar a:after {
     position: absolute;
     opacity: 0;
@@ -95,8 +95,24 @@ div.navbar a:after {
 div.navbar a:hover:before, div.navbar a:hover:after {
     opacity: 1;
     width: 100%;
+} /* End of navbar animation */
+/*End of navbar code */
+
+/* Twitch container */
+.twitch {
+  margin-top: 5%;
+  margin-left: 73%;
 }
 
+.twitch iframe {
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 0px 0px;
+  height: 220px;
+  width: 400px;
+} /* End of Twitch container */
+
+/* Footer */
 .footer-outer-container {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
@@ -118,19 +134,18 @@ div.navbar a:hover:before, div.navbar a:hover:after {
   margin-left: -4px;
   vertical-align: top;
   border: 0;
-
 }
 
 .lines {
-  border-right: 1px solid rgba(0, 0, 0, 0);
+  border-right: 1px solid rgba(0, 0, 0, 1);
 }
 
 .lines2 {
-  border-left: 1px solid rgba(0, 0, 0, 0);
-  border-right: 1px solid rgba(0, 0, 0, 0);
-  padding-left: 12%;
-  padding-right: 12%;
-  padding-bottom: 20px;
+  border-left: 1px solid rgba(0, 0, 0, 1);
+  border-right: 1px solid rgba(0, 0, 0, 1);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 3px;
   margin-top: 0px;
 }
 
@@ -143,22 +158,21 @@ div.navbar a:hover:before, div.navbar a:hover:after {
   text-align: center;
 }
 
-.footer-text {
-  color: white;
-  display: inline;
-}
-
 .footerinfo {
-  font: 15px 'Open Sans Condensed', sans-serif;
+  font: 7.6px 'Open Sans Condensed', sans-serif;
+  font-style: normal;
   color: white;
   display: inline-block;
-  margin-left: 10%;
-  padding-top: 10px;
-
+  margin-left: 5%;
+  margin-right: %;
 } 
 .footerinfo a {
-    text-align:;
-    text-decoration: none;
-    color: #21D1EF;
-    font-style: bold;
+  text-align:;
+  text-decoration: none;
+  color: #21D1EF;
 }
+
+.footerinfo h1 {
+  font-style: normal;
+  font-weight: normal;
+} /* End of footer */
