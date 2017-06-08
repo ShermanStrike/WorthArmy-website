@@ -98,6 +98,7 @@ div.navbar a:hover:before, div.navbar a:hover:after {
 } /* End of navbar animation */
 /*End of navbar code */
 
+/* Video containers */
 .home-containers {
   padding-top: 66px;
   margin-left: ;
@@ -140,7 +141,7 @@ display: inline-block;
   width: 100%;
   height: 250px;
   margin-left: 2px;
-}
+} /* End of youtube containers */
 
 /* Twitch container */
 .twitch {
@@ -157,12 +158,13 @@ display: inline-block;
 } /* End of Twitch container */
 /* End of video containers */
 
+/* Home text container */
 .home-text-container {
   margin: auto;
   margin-top: -10px;
   width: 920px;
   height: 200px;
-    /*font: 9px 'Open Sans Condensed', sans-serif; */
+  /*font: 9px 'Open Sans Condensed', sans-serif; */
   font-style: normal;
   color: white;
   text-align: center;
@@ -191,7 +193,7 @@ display: inline-block;
   text-decoration: none;
   color: #21D1EF;
   font-weight: bold;
-}
+} /* End of home text container */
 
 
 /* Footer */
